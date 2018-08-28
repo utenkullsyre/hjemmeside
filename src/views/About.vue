@@ -2,22 +2,22 @@
   <v-container grid-list-sm text-xs-center>
     <v-layout row wrap>
       <v-flex xs12 offset-sm4>
-        <v-card dark color="white" >
-          <v-card-text class="px-0">
+        <v-card dark color="deep-orange lighten-4" >
+          <v-card-title primary-title>
             <v-layout row wrap>
               <v-flex xs4>
                 <v-avatar
                   size="70"
-                  class="white"
-                  tile
+                  class="pa-1"
+                  color="deep-orange lighten-3"
                 >
-                  <img src="@/assets/kartlogo.svg" alt="alt">
+                  <img src="@/assets/magritte.png" class="" alt="alt">
                 </v-avatar>
-
-              </v-flex>
-              <v-flex xs8 align-center>
               </v-flex>
             </v-layout>
+          </v-card-title>
+          <v-card-text class="px-0">
+
 
           </v-card-text>
         </v-card>
